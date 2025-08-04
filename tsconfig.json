@@ -43,5 +43,5 @@
   },
   "include": [
     "./src"
-  ]
+, "src/A0001-type-annotation/.ts"  ]
 }
