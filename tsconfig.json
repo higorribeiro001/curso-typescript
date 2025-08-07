@@ -3,7 +3,7 @@
   "compilerOptions": {
     // File Layout
     // "rootDir": "./src",
-    "outDir": "./dist", // onde estarão os arquivos de compilação
+    "outDir": "./dist/assets/js", // onde estarão os arquivos de compilação
 
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
