@@ -1,0 +1,20 @@
+- ABSTRAÇÃO: permite isolar de um objeto somente os conceitos que são necessários para o funcionamento do programa.
+
+- ENCAPSULAMENTO: visa ocultar partes internas de um objeto e exibir apenas o necessário para uso externo.
+
+- HERANÇA: visa passar características de um objeto para outro.
+
+- POLIMORFISMO: algo que é polimorfo tem a habilidade de assumir diferentes formas.
+ex:
+
+class AnimalSounds {
+	public playSound(animal: Animal): void {
+		animal.makeNoise();
+	}
+}
+
+const dog = new Dog('Tina');
+const cat = new Cat('Suzy');
+const animalSounds = new AnimalSounds();
+animalSounds.playSound(dog);
+animalSounds.playSound(cat);
