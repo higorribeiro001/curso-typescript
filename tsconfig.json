@@ -2,12 +2,14 @@
   // Visit https://aka.ms/tsconfig to read more about this file
   "compilerOptions": {
     // File Layout
-    // "rootDir": "./src",
-    "outDir": "./dist", // onde estarão os arquivos de compilação
+    "rootDir": "./src",
+    "outDir": "./es2019", // onde estarão os arquivos de compilação
+    "removeComments": true, // remove os comentários na compilação
+    "noEmitOnError": true, // não compila o código se houver algum erro
 
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
-    "module": "nodenext",
+    "module": "es6",
     "target": "esnext",
     "types": [],
     // For nodejs:
@@ -31,6 +33,10 @@
     // "noUnusedParameters": true,
     // "noFallthroughCasesInSwitch": true,
     // "noPropertyAccessFromIndexSignature": true,
+
+    // experimental opcions
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
 
     // Recommended Options
     "strict": true,

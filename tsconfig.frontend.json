@@ -4,6 +4,8 @@
     // File Layout
     // "rootDir": "./src",
     "outDir": "./frontend/assets/js", // onde estarão os arquivos de compilação
+    "removeComments": true, // remove os comentários na compilação
+    "noEmitOnError": true, // não compila o código se houver algum erro
 
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
@@ -31,6 +33,10 @@
     // "noUnusedParameters": true,
     // "noFallthroughCasesInSwitch": true,
     // "noPropertyAccessFromIndexSignature": true,
+
+    // experimental opcions
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
 
     // Recommended Options
     "strict": true,
